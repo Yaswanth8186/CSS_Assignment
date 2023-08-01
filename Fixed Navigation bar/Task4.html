@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fixed Navigation Bar</title>
+        <link rel="stylesheet" href="./Task4.css">
+    </head>
+    <body>
+        <div class="header">
+            <a class="navigation" href="#">Home</a>
+            <a class="navigation" href = "#">History</a>
+            <a class="navigation" href = "#">Achievements</a>
+            <a class="navigation" href="#">About US</a>
+            <a class="navigation" href="#">Contact US</a>
+        </div>
+        <br><br><br><br><br>
+        <h1>React</h1> 
+        <h3>Introduction</h3> 
+        <p>
+            React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
+            React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.
+        </p>  
+        <h3>Notable Features</h3>
+        <h4>Declarative</h4>
+        <p>
+            React adheres to the declarative programming paradigm. Developers design views for each state of an application, and React updates and renders components when data changes. This is in contrast with imperative programming.
+        </p>
+        <h4>Components</h4>
+        <p>
+            React code is made of entities called components. These components are modular and reusable. React applications typically consist of many layers of components. The components are rendered to a root element in the DOM using the React DOM library. When rendering a component, values are passed between components through props (short for "properties"). Values internal to a component are called its state.
+            The two primary ways of declaring components in React are through function components and class components
+        </p>
+        <h4>Function Components</h4>
+        <p>Function components are declared with a function (using JavaScript function syntax or an arrow function expression) that accepts a single "props" argument and returns JSX. From React v16.8 onwards, function components can use state with the useState Hook.</p>
+        <h4>React Hooks</h4>
+        <P>On February 16, 2019, React 16.8 was released to the public, introducing React Hooks. Hooks are functions that let developers "hook into" React state and lifecycle features from function components. Notably, Hooks do not work inside classes — they let developers use more features of React without classes.
+        React provides several built-in Hooks such as useState, useContext, useReducer, useMemo and useEffect. Others are documented in the Hooks API Reference useState and useEffect, which are the most commonly used, are for controlling state and side effects respectively.</P>
+        <h4>Server Components</h4>
+        <p>React server components or "RSC"s are function components that run exclusively on the server. The concept was first introduced in the talk Data Fetching with Server Components Though a similar concept to Server Side Rendering, RSCs do not send corresponding JavaScript to the client as no hydration occurs. As a result, they have no access to hooks. However, they may be asynchronous function, allowing them to directly perform asynchronous operations</p>
+        <h4>Class Components</h4>
+        <p>Class components are declared using ES6 classes. They behave the same way that function components do, but instead of using Hooks to manage state and lifecycle events, they use the lifecycle methods on the React.Component base class.</p>
+    </body>
+</html>

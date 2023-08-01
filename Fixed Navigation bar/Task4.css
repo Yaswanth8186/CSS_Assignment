@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.header {
+    height: 80px;
+    width:100%;
+    background-color: rgb(120, 157, 169);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation{
+    text-decoration: none;
+    color: rgb(255, 11, 11);
+}
+h1 {
+    text-align: center;
+}
+p {
+    margin: 10px;
+}
+h3,h4{
+    margin: 10px;
+}
