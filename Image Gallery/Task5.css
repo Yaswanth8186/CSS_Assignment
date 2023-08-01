@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: rgb(60, 9, 108);
+}
+.container{
+    height:350px;
+    width:300px;;
+}
+.gallery {
+    display: flex;
+    position: relative;
+    top:65px;    
+    left : 300px;
+}  
+.gallery img {
+    width: 175px;
+    height : 175px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px;
+} 
+.gallery img:hover {
+    transform: scale(1.2);
+}
+img {
+      transition-property: transform;
+      transition-duration: .4s;
+      transition-timing-function: ease-in-out;
+}
